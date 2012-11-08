@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://kingbin.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Chris Blazek | My Octopress Blog]]></title>
+  <link href="http://kingbin.github.com/blog/categories/chris-blazek/atom.xml" rel="self"/>
   <link href="http://kingbin.github.com/"/>
   <updated>2012-11-08T11:57:02-06:00</updated>
   <id>http://kingbin.github.com/</id>
@@ -18,7 +18,9 @@
     <link href="http://kingbin.github.com/blog/2012/11/08/to-switch-or-not/"/>
     <updated>2012-11-08T11:05:00-06:00</updated>
     <id>http://kingbin.github.com/blog/2012/11/08/to-switch-or-not</id>
-    <content type="html"><![CDATA[<p>I&#8217;m testing octopress &amp; github&#8217;s pages hosting..</p>
+    <content type="html"><![CDATA[<p></p>
+
+<p>I'm testing octopress &amp; github's pages hosting..</p>
 ]]></content>
   </entry>
   
