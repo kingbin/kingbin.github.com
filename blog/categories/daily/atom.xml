@@ -4,7 +4,7 @@
   <title><![CDATA[Category: daily | KinGBin Dev Blog]]></title>
   <link href="http://kingbin.github.com/blog/categories/daily/atom.xml" rel="self"/>
   <link href="http://kingbin.github.com/"/>
-  <updated>2012-12-23T14:11:53-06:00</updated>
+  <updated>2012-12-23T14:15:19-06:00</updated>
   <id>http://kingbin.github.com/</id>
   <author>
     <name><![CDATA[Chris Blazek]]></name>
@@ -18,7 +18,7 @@
     <link href="http://kingbin.github.com/blog/2012/12/23/cats/"/>
     <updated>2012-12-23T13:48:00-06:00</updated>
     <id>http://kingbin.github.com/blog/2012/12/23/cats</id>
-    <content type="html"><![CDATA[<p><img src="http://placekitten.com/890/280"></p>
+    <content type="html"><![CDATA[<p>{% img http://placekitten.com/890/280 %}</p>
 
 <p>Well this is a fun new adventure for my blog.</p>
 
@@ -32,7 +32,7 @@
 
 <p>Probably the best part about all this is that I'm using VI to create posts.</p>
 
-<p>File /Users/chrisblazek/Documents/Development/Websites/octopress/source/downloads/code/coffeescript/fib.coffee could not be found</p>
+<p>{% include_code coffeescript/fib.coffee lang:coffeescript %}</p>
 ]]></content>
   </entry>
   
