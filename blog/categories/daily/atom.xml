@@ -4,7 +4,7 @@
   <title><![CDATA[Category: daily | KinGBin Dev Blog]]></title>
   <link href="http://kingbin.github.com/blog/categories/daily/atom.xml" rel="self"/>
   <link href="http://kingbin.github.com/"/>
-  <updated>2012-12-23T14:15:44-06:00</updated>
+  <updated>2012-12-23T14:25:03-06:00</updated>
   <id>http://kingbin.github.com/</id>
   <author>
     <name><![CDATA[Chris Blazek]]></name>
@@ -18,7 +18,7 @@
     <link href="http://kingbin.github.com/blog/2012/12/23/cats/"/>
     <updated>2012-12-23T13:48:00-06:00</updated>
     <id>http://kingbin.github.com/blog/2012/12/23/cats</id>
-    <content type="html"><![CDATA[<p>{% img http://placekitten.com/890/280 %}</p>
+    <content type="html"><![CDATA[<p><img src="http://placekitten.com/890/280"></p>
 
 <p>Well this is a fun new adventure for my blog.</p>
 
@@ -32,7 +32,24 @@
 
 <p>Probably the best part about all this is that I'm using VI to create posts.</p>
 
-<p>{% include_code coffeescript/fib.coffee lang:coffeescript %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (fib.coffee)</span> <a href='/downloads/code/coffeescript/fib.coffee'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="nv">fibonacci = </span><span class="nf">(n) -&gt;</span>
+</span><span class='line'>  <span class="k">if</span> <span class="nx">n</span> <span class="o">&lt;=</span> <span class="mi">2</span>
+</span><span class='line'>    <span class="nx">n</span>
+</span><span class='line'>  <span class="k">else</span>
+</span><span class='line'>    <span class="nx">arguments</span><span class="p">.</span><span class="nx">callee</span><span class="p">(</span><span class="nx">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span> <span class="o">+</span> <span class="nx">arguments</span><span class="p">.</span><span class="nx">callee</span><span class="p">(</span><span class="nx">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">for</span> <span class="nx">x</span> <span class="k">in</span> <span class="p">[</span><span class="mi">1</span><span class="p">..</span><span class="mi">10</span><span class="p">]</span>
+</span><span class='line'>  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span> <span class="s">&quot;</span><span class="si">#{</span><span class="nx">x</span><span class="si">}</span><span class="s"> : </span><span class="si">#{</span><span class="nx">fibonacci</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span><span class="si">}</span><span class="s">&quot;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 ]]></content>
   </entry>
   
