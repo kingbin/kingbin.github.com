@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[KinGBin Dev Blog]]></title>
-  <link href="http://kingbin.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: daily | KinGBin Dev Blog]]></title>
+  <link href="http://kingbin.github.com/blog/categories/daily/atom.xml" rel="self"/>
   <link href="http://kingbin.github.com/"/>
   <updated>2012-12-23T14:07:47-06:00</updated>
   <id>http://kingbin.github.com/</id>
@@ -22,26 +22,17 @@
 
 <p>Well this is a fun new adventure for my blog.</p>
 
-<p>It&#8217;s moved from blogger.com to a locally hosted site, then to a local wordress install and now gh-pages.</p>
+<p>It's moved from blogger.com to a locally hosted site, then to a local wordress install and now gh-pages.</p>
 
-<p>I haven&#8217;t migrated the old content and I&#8217;m not sure I will. I moved to ghpages because my new provider blocks port 80. I was told that port was for nothing but malicious intents.</p>
+<p>I haven't migrated the old content and I'm not sure I will. I moved to ghpages because my new provider blocks port 80. I was told that port was for nothing but malicious intents.</p>
 
-<p>This new format allows me to use rake commands to generate new posts, test and deploy along with ties to github. I appreciate the approach because it allows me to work in the tools I would spend all day in if I could. I&#8217;m using erb templates and other slick plugins that make sense to me as a developer.</p>
+<p>This new format allows me to use rake commands to generate new posts, test and deploy along with ties to github. I appreciate the approach because it allows me to work in the tools I would spend all day in if I could. I'm using erb templates and other slick plugins that make sense to me as a developer.</p>
 
 <p>I need to figure out how I want to handle some of the little development I did at the house. I went to dyndns and you have to now pay for the service. I believe you can cancel the trial and still be limited to one host. Which will work for what I want to do. I still need to setup the CNAME aliases to point to different services I run at the house.</p>
 
-<p>Probably the best part about all this is that I&#8217;m using VI to create posts.</p>
+<p>Probably the best part about all this is that I'm using VI to create posts.</p>
 
 <p>File /Users/chrisblazek/Documents/Development/Websites/octopress/source/downloads/code/coffeescript/fib.coffee could not be found</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[To Switch Or Not]]></title>
-    <link href="http://kingbin.github.com/blog/2012/11/08/to-switch-or-not/"/>
-    <updated>2012-11-08T11:05:00-06:00</updated>
-    <id>http://kingbin.github.com/blog/2012/11/08/to-switch-or-not</id>
-    <content type="html"><![CDATA[<p>I&#8217;m testing octopress &amp; github&#8217;s pages hosting..</p>
 ]]></content>
   </entry>
   
