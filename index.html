@@ -9,7 +9,8 @@
   <meta name="author" content="Chris Blazek">
 
   
-  <meta name="description" content="Well this is a fun new adventure for my blog. It&#8217;s moved from blogger.com to a locally hosted site, then to a local wordress install and now &hellip;">
+  <meta name="description" content="Time to be Awesome - awesome.rb 1
+puts &quot;Awesome!&quot; unless lame Well this is a fun new adventure for my blog. It&#8217;s moved from blogger. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -95,6 +96,12 @@
 
   <div class="entry-content"><p><img src="http://placekitten.com/890/280"></p>
 
+<figure class='code'><figcaption><span>Time to be Awesome - awesome.rb </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="nb">puts</span> <span class="s2">&quot;Awesome!&quot;</span> <span class="k">unless</span> <span class="n">lame</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
 <p>Well this is a fun new adventure for my blog.</p>
 
 <p>It&#8217;s moved from blogger.com to a locally hosted site, then to a local wordress install and now gh-pages.</p>
@@ -106,6 +113,42 @@
 <p>I need to figure out how I want to handle some of the little development I did at the house. I went to dyndns and you have to now pay for the service. I believe you can cancel the trial and still be limited to one host. Which will work for what I want to do. I still need to setup the CNAME aliases to point to different services I run at the house.</p>
 
 <p>Probably the best part about all this is that I&#8217;m using VI to create posts.</p>
+
+<p>PS: I&#8217;m on a mac and had to add a link to the python 2.7 include dir for rake generate this post. I&#8217;m not sure if it&#8217;s documented anywhere, but anywo&#8230;</p>
+
+<figure class='code'><figcaption><span>rake generate error </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Building site: source -> public
+</span><span class='line'>Traceback (most recent call last):
+</span><span class='line'>  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site.py", line 565, in &lt;module>
+</span><span class='line'>  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site.py", line 547, in main
+</span><span class='line'>  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site.py", line 278, in addusersitepackages
+</span><span class='line'>  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site.py", line 253, in getusersitepackages
+</span><span class='line'>  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site.py", line 243, in getuserbase
+</span><span class='line'>  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/sysconfig.py", line 523, in get_config_var
+</span><span class='line'>  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/sysconfig.py", line 419, in get_config_vars
+</span><span class='line'>  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/sysconfig.py", line 298, in _init_posix
+</span><span class='line'>IOError: invalid Python installation: unable to open /usr/include/python2.7/pyconfig.h (No such file or directory)</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>script ln for python </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo ln -s /System/Library/Frameworks/Python.framework/Versions/2.7/include /usr/include</span></code></pre></td></tr></table></div></figure>
+
+
+
 
 <figure class='code'><figcaption><span> (fib.coffee)</span> <a href='/downloads/code/coffeescript/fib.coffee'>download</a></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
