@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Cats Meow"
+date: 2012-12-23 13:48
+comments: true
+categories: daily
+---
+{% img http://placekitten.com/890/280 %}
+
+{% codeblock Time to be Awesome - awesome.rb %}
+puts "Awesome!" unless lame
+{% endcodeblock %}
+
+Well this is a fun new adventure for my blog.
+
+It's moved from blogger.com to a locally hosted site, then to a local wordress install and now gh-pages.
+
+I haven't migrated the old content and I'm not sure I will. I moved to ghpages because my new provider blocks port 80. I was told that port was for nothing but malicious intents.
+
+This new format allows me to use rake commands to generate new posts, test and deploy along with ties to github. I appreciate the approach because it allows me to work in the tools I would spend all day in if I could. I'm using erb templates and other slick plugins that make sense to me as a developer.
+
+I need to figure out how I want to handle some of the little development I did at the house. I went to dyndns and you have to now pay for the service. I believe you can cancel the trial and still be limited to one host. Which will work for what I want to do. I still need to setup the CNAME aliases to point to different services I run at the house.
+
+Probably the best part about all this is that I'm using VI to create posts.
+
+PS: I'm on a mac and had to add a link to the python 2.7 include dir for rake generate this post. I'm not sure if it's documented anywhere, but anywo...
+
+{% codeblock rake generate error %}
+Building site: source -> public
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site.py", line 565, in <module>
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site.py", line 547, in main
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site.py", line 278, in addusersitepackages
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site.py", line 253, in getusersitepackages
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site.py", line 243, in getuserbase
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/sysconfig.py", line 523, in get_config_var
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/sysconfig.py", line 419, in get_config_vars
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/sysconfig.py", line 298, in _init_posix
+IOError: invalid Python installation: unable to open /usr/include/python2.7/pyconfig.h (No such file or directory)
+{% endcodeblock %}
+
+{% codeblock script ln for python %}
+sudo ln -s /System/Library/Frameworks/Python.framework/Versions/2.7/include /usr/include
+{% endcodeblock %}
+
+
+{% include_code coffeescript/fib.coffee lang:coffeescript %}
+
+
