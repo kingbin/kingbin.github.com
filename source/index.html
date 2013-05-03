@@ -1,8 +1,42 @@
 ---
-layout: landing 
-date: 2012-12-23 16:06
-comments: true
-sharing: true
-footer: true
+layout: default
 ---
+
+<div id="front-wrapper">
+  <div id="hero">
+    <div id="hero-inner" class="container">
+      {% include custom/intro.html %}
+    </div>
+  </div>
+  <section id="sub-hero">
+    <div class="container">
+      {% include custom/widgets.html %}
+    </div>
+  </section>
+  <div class="container">
+    {% assign index = true %}
+    {% for post in paginator.posts %}
+      <div class="row" id="post-container">
+        {% assign content = post.content %}
+        <article class="span12">
+          {% include article.html %}
+        </article>
+      </div>
+    {% endfor %}
+      <div class="row">
+        <ul class="pager">
+          {% if paginator.next_page %}
+            <li class="previous">
+              <a href="{{paginator.next_page}}">&larr; Older</a>
+            </li>
+          {% endif %}
+          {% if paginator.previous_page %}
+            <li class="next">
+              <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
+            </li>
+          {% endif %}
+        </ul>
+      </div>
+  </div>
+</div>
 

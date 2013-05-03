@@ -3,7 +3,8 @@
 # ----------------------- #
 
 url: http://kingbin.github.com
-title: KinGBin Dev Blog
+#title: KinGBin Dev Blog
+title: Chris Blazek's Ramblings
 subtitle: Damn it feels good to be a Programmer
 author: Chris Blazek
 simple_search: http://google.com/search
@@ -19,7 +20,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: chris.blazek@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -61,7 +62,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 github_user: kingbin
 github_repo_count: 4
 github_show_profile_link: true
-github_skip_forks: true
+github_skip_forks: false
 
 # Twitter
 twitter_user: kingbin
@@ -93,7 +94,7 @@ disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-26915855-1
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
