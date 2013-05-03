@@ -34,3 +34,11 @@ THE SOFTWARE IS PROVIDED ‘AS IS’, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 #### If you want to be awesome.
 - Proudly display the 'Powered by Octopress' credit in the footer.
 - Add your site to the Wiki so we can watch the community grow.
+
+#### New Post Notes
+rake new_post\["hard to walk away"\]
+git add .
+git commit -ma
+git push origin source
+rake deploy
+
