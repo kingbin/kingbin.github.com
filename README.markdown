@@ -37,8 +37,14 @@ THE SOFTWARE IS PROVIDED ‘AS IS’, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 #### New Post Notes
 rake new_post\["hard to walk away"\]
+
+rake generate
+
 git add .
+
 git commit -ma
+
 git push origin source
+
 rake deploy
 
