@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[KinGBin Dev Blog]]></title>
+  <title><![CDATA[Chris Blazek's Ramblings]]></title>
   <link href="http://kingbin.github.com/atom.xml" rel="self"/>
   <link href="http://kingbin.github.com/"/>
-  <updated>2013-05-02T20:55:22-05:00</updated>
+  <updated>2013-05-02T22:31:39-05:00</updated>
   <id>http://kingbin.github.com/</id>
   <author>
     <name><![CDATA[Chris Blazek]]></name>
-    
+    <email><![CDATA[chris.blazek@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
